@@ -432,7 +432,7 @@ footer .footer_discl {
 }
 
 .player_card_wrapper .player_card_name {
-  position: absolute;
+  position: relative;
   bottom: 0px;
 }
 

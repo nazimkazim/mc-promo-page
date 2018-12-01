@@ -1,5 +1,6 @@
 import React from 'react';
 const FormField = ({ formdata, id, change }) => {
+  // Show error function
   const showError = () => {
     let errorMessage = (
       <div className="error_label">
@@ -8,9 +9,10 @@ const FormField = ({ formdata, id, change }) => {
           : null}
       </div>
     );
-
     return errorMessage;
   };
+
+  // Render template
   const renderTemplate = () => {
     let formTemplate = null;
 
